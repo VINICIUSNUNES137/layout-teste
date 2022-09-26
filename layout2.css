@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 150px;
+    font-size: 2rem;
+}
+
+
+header{
+    background-color: tomato;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    background-color: pink;
+    display: flex;
+}
+
+.nav {
+    background-color: plum;
+    width: 10%;
+    display: grid;
+    place-items: center;
+}
+
+.article {
+    background-color: greenyellow;
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+
+.aside {
+    background-color: khaki;
+    width: 10%;
+    display: grid;
+    place-items: center;
+
+}
+
+
+footer {
+    background-color: mediumorchid;
+    display: grid;
+    place-items: center;
+
+}

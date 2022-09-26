@@ -1,0 +1,166 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    'nav header'
+    'nav main'
+    'nav footer';
+    grid-template-columns: 150px;
+    grid-template-rows: 150px 1fr 150px;
+}
+
+nav {
+    grid-area: nav;
+    background-color: plum;
+    display: grid;
+    place-items: center;
+}
+
+.nav1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.nav2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.nav3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.nav4{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+
+header {
+    grid-area: header;
+    background-color: powderblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.header2 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.header3 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+
+main {
+    grid-area: main;
+    background-color: purple;
+    display: grid;
+    grid-template-areas: 
+    'article aside' 
+    'article aside';
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: 2fr 1fr;
+    
+}
+
+
+
+.article {
+    background-color:steelblue;
+    grid-area: article;
+    display: grid;
+    place-items: center;
+    grid-template-areas: 
+    'linhaArticle1' 
+    'linhaArticle2'
+    'linhaArticle3';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.linhaArticle1{
+    grid-area: linhaArticle1;
+
+}
+
+.linhaArticle2{
+    grid-area: linhaArticle2;
+
+}
+
+
+.linhaArticle3 {
+    grid-area: linhaArticle3;
+
+
+}
+
+
+.aside {
+    background-color: springgreen;
+    grid-area: aside;
+    display: flex;
+    display: grid;
+    place-items: center;
+
+}
+
+.aside1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+
+.aside2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+
+.aside3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+
+.aside4{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+}
+
+footer{
+    grid-area: footer;
+    background-color: salmon;
+    display: grid;
+    place-items: center;
+
+}
+
+.footer1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
